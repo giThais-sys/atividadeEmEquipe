@@ -2,7 +2,7 @@ let {estudantes}= require('./index')
 
 const removerEstudante= (req, res)=>{
 const {id}= req.params
-const index= estudante.findIndex(estudantes.id===id)
+const index= estudante.findIndex(estudante.id===id)
 
 if (index=== -1){
     console.log(res.status(404).send({mensagem: 'estudante nao foi encontrado!'}))

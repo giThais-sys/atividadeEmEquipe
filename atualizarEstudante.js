@@ -4,7 +4,7 @@ const atualizarEstudante=(req,res)=> {
 const {id}=req.params
 const novoNome= req.body.nome
 const novaMatricula= req.body.matricula
-const novoCurso= req.body.novoCurso
+const novoCurso= req.body.curso
 const novoAno= req.body.ano
 
 const estudante= estudantes.find (estudante.id===id)
